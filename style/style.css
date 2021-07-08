@@ -1,0 +1,193 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "RR";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+
+.header__top h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+.header ul a {
+    text-transform: uppercase;
+    color: #3A3838;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 15px;
+    display: block;
+    font-weight: bold;
+    transition: background 300ms, color 300ms;
+}
+
+.header ul a:hover {
+    color: #EF4423;
+    background: white;
+}
+
+.header__img {
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+
+.header__content {
+    display: flex;
+    padding-right: 25px;
+   
+}
+
+.header__content img {
+    width: 100%;
+}
+
+.header__box h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    padding: 8px 15px;
+}
+
+.header__box p {
+    color: #EBEBEB;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 15px 15px;
+}
+
+.header__box1 {
+    background: #B71C1C;
+}
+
+.header__box2 {
+    padding-top: 7px;    
+    background: #6A1B9A;
+}
+
+.header__box3 {
+    background: #303F9F;
+}
+
+.header__box4 {
+    padding-top: 7px;
+    background: #00695C;
+}
+
+/* Header заканчивается здесь */
+
+.main {
+    display: flex;
+}
+
+.main__h3 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    background: white;
+}
+
+.main__box {
+    background: #EDEDED;
+}
+
+.main__img {
+    display: flex;
+}
+
+.main__box2 {
+    max-width: 540px;
+    width: 100%;
+    padding: 20px 30px 30px;
+}
+
+.main__box h4 {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+}
+
+.main__box p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+}
+
+/* Main заканчивается здесь */
+
+.footer {
+    margin-top: 50px;
+    background: #3A3838;
+}
+
+.footer h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3A3838;
+}
+
+.footer ul a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 15px;
+    font-weight: bold;
+    transition: color 300ms;
+}
+
+.footer ul a:hover {
+    color: #EF4423;
+}
